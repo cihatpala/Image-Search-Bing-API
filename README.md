@@ -29,13 +29,15 @@
 
 # Step 2 (Installation)
    
-   ### You may need to use Git Bash for this.
+   ### (Alternative 1) You may need to use Git Bash for this.
    #### Git Bash Download Link: https://git-scm.com/downloads
    * Go to [your working directory] <br>
      Note: You can easily switch between directories with the `cd` command.)
-   
    * `git init`
    * Clone link of this project : https://github.com/cihatpala/Image-Search-Bing-API.git
    * `git remote add [remote_name] https://github.com/cihatpala/Image-Search-Bing-API.git`
    * `git pull [remote_name]`
   
+   ### (Alternative 2)
+   * 
+   
