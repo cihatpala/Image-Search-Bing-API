@@ -1,7 +1,17 @@
 # Image-Search-Bing-API
 ## An API where you can quickly create a dataset for training in Deep Learning
 
+
+# Step 0 (Getting keys from Microsoft)
+
+* First, log in to your microsoft account.
+>Note: You should be given a free trial key. - as an experiment - (The current situation is unknown.)
+
+* Go to this link: https://azure.microsoft.com/en-us/try/cognitive-services/my-apis/?api=bing-image-search-api
+   >Note: Key1 and Key2 must be values. Note them because they will be pasted into the code.
+
 # Step 1 (Requirements)
+
 * ###  Python 
    Download: https://www.python.org/downloads/
      
@@ -12,6 +22,7 @@
      
 
 ## Required modules
+
    It is a module that you can download from the command screen (Anaconda Powershell Promt).
      
 * ### Requests Module
@@ -39,5 +50,32 @@
    * `git pull [remote_name]`
   
    ### (Alternative 2)
-   * 
+   * Download the `zip file` of this project.
    
+# Step 3 (How It Works)
+
+   ## Using the key given to you by Microsoft
+   * Type the key given to you in the `API_KEY = "key given to you"` section of the Bing_image_search_api.py script.
+   
+   ### Start Anaconda Promt
+   * Go to the file where you clone the project. <br>
+     Note: You can easily switch between directories with the `cd` command.)
+   * `mkdir train_set`
+   * `mkdir train_set/angelina_jolie`
+   * `python Bing_image_search_api.py –query "Angelina Jolie" --output dataset/angelina_jolie`
+   
+   >Note: Whatever number you give to the `GROUP_SIZE` variable in the Bing_image_search_api.py script, it will be so visual.
+     
+   * >As a result, you get *Angelina Jolie's* photos as many as `GROUP_SIZE`.
+`
+
+
+
+
+
+
+
+
+
+
+
