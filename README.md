@@ -62,20 +62,8 @@
      Note: You can easily switch between directories with the `cd` command.)
    * `mkdir train_set`
    * `mkdir train_set/angelina_jolie`
-   * `python Bing_image_search_api.py –query "Angelina Jolie" --output dataset/angelina_jolie`
+   * `python Bing_image_search_api.py –query "Angelina Jolie" --output train_set/angelina_jolie`
    
    >Note: Whatever number you give to the `GROUP_SIZE` variable in the Bing_image_search_api.py script, it will be so visual.
      
    * >As a result, you get *Angelina Jolie's* photos as many as `GROUP_SIZE`.
-`
-
-
-
-
-
-
-
-
-
-
-
