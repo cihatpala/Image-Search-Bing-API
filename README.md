@@ -34,12 +34,8 @@
    * Go to [your working directory] <br>
      Note: You can easily switch between directories with the `cd` command.)
    
-   *
-  
+   * git init
    * Clone link of this project : https://github.com/cihatpala/Image-Search-Bing-API.git
-   
-   *
-   asdasdasdasdasdadasdasdasd
-   *
-   
-   *
+   * git remote add [remote_name] https://github.com/cihatpala/Image-Search-Bing-API.git
+   * git pull [remote_name]
+  
