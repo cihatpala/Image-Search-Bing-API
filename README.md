@@ -1,6 +1,7 @@
 # Image-Search-Bing-API
 ## An API where you can quickly create a dataset for training in Deep Learning
 
+![Angelina_Jolie](https://user-images.githubusercontent.com/30652453/85960781-d78cd300-b9ae-11ea-9157-516ee663dec5.png)
 
 # Step 0 (Getting keys from Microsoft)
 
